@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "api-skeleton"
+    "url": "https://github.com/jrmarco/api-skeleton.git"
   },
   "keywords": [
     "api",
