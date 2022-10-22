@@ -1,0 +1,39 @@
+{
+  "name": "ms-server",
+  "version": "1.0.0",
+  "description": "API skeleton server",
+  "main": "index.js",
+  "scripts": {
+    "server": "node index.js",
+    "lint": "eslint --fix --ext .js src/",
+    "watch": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "api-skeleton"
+  },
+  "keywords": [
+    "api",
+    "microservices",
+    "nodejs",
+    "javascript",
+    "server"
+  ],
+  "author": "Marco Grossi <developer@bigm.it>",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.40.1",
+    "eslint": "^8.25.0",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.3.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "nodemon": "^2.0.19",
+    "typescript": "^4.8.4"
+  }
+}
